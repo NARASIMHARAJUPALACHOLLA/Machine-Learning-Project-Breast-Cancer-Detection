@@ -6,7 +6,7 @@ Breast cancer is one of the most prevalent forms of cancer affecting women world
 
 In this project, we employ multiple machine learning algorithms to develop a predictive model for breast cancer detection. By training our model on a well-known dataset, we aim to classify tumors as malignant (cancerous) or benign (non-cancerous). We compare different algorithms to determine the most effective approach based on performance metrics such as accuracy, precision, recall, and F1-score.
 
-*Objectives*
+**Objectives**
 
 The main objectives of this project include:
 
@@ -86,7 +86,7 @@ Implementation of Machine Learning Models
 
 We implement multiple machine learning models and compare their performance to determine the best approach for breast cancer classification.
 
-1. Support Vector Machine (SVM)
+***1. Support Vector Machine (SVM)***
 
 SVM is a powerful supervised learning algorithm that finds the optimal hyperplane for classifying data points. It works well for high-dimensional datasets and is resistant to overfitting.
 
@@ -94,19 +94,19 @@ We use a radial basis function (RBF) kernel to improve classification performanc
 
 Hyperparameter tuning (C and gamma values) is done using GridSearchCV.
 
-2. Logistic Regression
+***2. Logistic Regression***
 
 Logistic Regression is a linear model used for binary classification. It is based on the sigmoid function and estimates the probability of a given instance belonging to a particular class.
 
 We use L2 regularization to avoid overfitting and improve model generalization.
 
-3. Naïve Bayes (GaussianNB)
+***3. Naïve Bayes (GaussianNB)***
 
 Naïve Bayes is based on Bayes' theorem and assumes independence among features. It is computationally efficient and works well with small datasets.
 
 We use the Gaussian Naïve Bayes variant, which assumes features follow a normal distribution.
 
-4. k-Nearest Neighbors (KNN)
+***4. k-Nearest Neighbors (KNN)***
 
 KNN is a non-parametric algorithm that classifies instances based on their nearest neighbors. The optimal value of k (number of neighbors) is determined using cross-validation.
 
@@ -122,7 +122,7 @@ Confusion Matrix: Shows true positives, true negatives, false positives, and fal
 
 Precision and Recall: Precision measures how many predicted positives are actual positives, while recall measures the ability to identify all actual positives.
 
-F1-Score: The harmonic mean of precision and recall, providing a balanced evaluation.
+**F1-Score**: The harmonic mean of precision and recall, providing a balanced evaluation.
 
 ROC Curve and AUC Score: The Receiver Operating Characteristic (ROC) curve visualizes model performance, and the Area Under the Curve (AUC) score indicates how well the model distinguishes between classes.
 
@@ -142,6 +142,6 @@ This project demonstrates the potential of machine learning in breast cancer det
 
 Best Performing Model: Based on experimental results, SVM and Logistic Regression show high accuracy and reliability in classification.
 
-Limitations: Some models, such as KNN, are sensitive to data scaling and require careful hyperparameter tuning.
+**Limitations**: Some models, such as KNN, are sensitive to data scaling and require careful hyperparameter tuning.
 
-Future Work: We plan to implement deep learning techniques (CNNs) for enhanced feature extraction and improve real-time diagnosis systems
+**Future Work**: We plan to implement deep learning techniques (CNNs) for enhanced feature extraction and improve real-time diagnosis systems
